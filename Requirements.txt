@@ -1,5 +1,6 @@
 pytest==7.4.3
 selenium==4.15.2
 undetected-chromedriver==3.5.4
+setuptools>=68.0.0
 pytest-html==4.1.1
 pytest-xdist==3.5.0
