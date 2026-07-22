@@ -15,4 +15,4 @@ class ReadConfig:
 
     @staticmethod
     def get_browser():
-        return config.get('login details', 'browser')
+        return config.get('login details', 'browser') 
