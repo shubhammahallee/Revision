@@ -1,7 +1,6 @@
 from configparser import ConfigParser
 import os
 
-
 config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "Configuration", "config.ini")
 
 config = ConfigParser()
