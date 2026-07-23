@@ -2,7 +2,7 @@ import logging
 import os
 from datetime import datetime
 
-# Create logs directory if not exists
+# Create logs directory if not exists 
 log_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "Logs")
 os.makedirs(log_dir, exist_ok=True)
 
