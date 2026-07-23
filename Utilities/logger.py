@@ -13,7 +13,7 @@ log_file = os.path.join(log_dir, f"test_log_{datetime.now().strftime('%Y%m%d_%H%
 logging.basicConfig(
     filename=log_file,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    level=logging.INFO
+    level=logging.INFO 
 )
 
 logger = logging.getLogger()
